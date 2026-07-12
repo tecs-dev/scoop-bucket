@@ -1,0 +1,24 @@
+{
+    "version": "0.1.0",
+    "description": "Create, check, build, and run Tecs2D game projects",
+    "homepage": "https://github.com/tecs-dev/tecs-cli",
+    "license": "MIT",
+    "url": [
+        "https://github.com/tecs-dev/tecs-cli/releases/download/v0.1.0/tecs.cmd",
+        "https://github.com/tecs-dev/tecs-cli/releases/download/v0.1.0/tecs.ps1",
+        "https://github.com/tecs-dev/tecs-cli/releases/download/v0.1.0/tecs-cli.love"
+    ],
+    "hash": [
+        "0d66563f66ea52bd9f19838566d0b2e4c677ee5e4f04756adb225458eee8c311",
+        "44962ae4bbb707bbde425a0d2e6aac8c496f7c99a8e05884b02bccf4a49755c6",
+        "9e693b6f0dfc8de8f91500f9aacf7d6e1cb8fefd6a2b9490ccbda9b871534152"
+    ],
+    "bin": "tecs.cmd",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/tecs-dev/tecs-cli/releases/download/v$version/tecs-cli-$version-windows.zip",
+        "hash": {
+            "url": "https://github.com/tecs-dev/tecs-cli/releases/download/v$version/SHA256SUMS"
+        }
+    }
+}
