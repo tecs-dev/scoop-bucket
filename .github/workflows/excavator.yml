@@ -1,4 +1,4 @@
-# Keeps bucket manifests current: checkver polls tecs-cli GitHub releases and
+# Keeps bucket manifests current: checkver polls shared Tecs GitHub releases and
 # autoupdate rewrites the manifest to the new versioned archive and hashes.
 name: Excavator
 
